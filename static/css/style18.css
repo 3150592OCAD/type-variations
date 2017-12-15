@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|PT+Serif');
+
+@media screen {
+	body {
+		background: #eee;
+	}
+	main {
+		font-family: 'PT Serif';
+		color: #333;
+		margin: 0 5vw;
+	}
+	article {
+		max-width: 40em;
+		margin: 0 auto;
+	}
+	article > section, article > h2 {
+		margin-top: 3em;
+	}
+	#headings > cite {
+		font-size: 4.5vw;
+	}
+	#headings > h1 {
+		margin-top: 1vh;
+		font-size: 14vw;
+	}
+	#headings > aside {
+		display: none;
+	}
+	h1, h2, h3 {
+		color: #444;
+		font-family: Anton;
+	}
+	h2, h3 {
+		font-size: 2em;
+		letter-spacing: 0.1em;
+		margin-bottom: 0;
+	}
+	h3 {
+		color: #555;
+	}
+	figcaption {
+		font-style: italic;
+	}
+	@media (min-width:700px) {
+		#headings > cite {
+			font-size: 2em;
+		}
+		#headings > h1 {
+			font-size: 6em;
+		}
+		#XV blockquote {
+			display: flex;
+		}
+		#XV > blockquote > p:nth-child(even) {
+			margin-left: 1em;
+		}
+	}
+}

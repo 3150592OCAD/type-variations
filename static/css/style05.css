@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Quicksand');
+
+@media screen {
+	body {
+		background: #F5EFD3;
+	}
+	main {
+		font-size: 1.5em;
+		font-family: Quicksand;
+	}
+	#headings > cite {
+		font-size: 6vw;
+	}
+	#headings > h1 {
+		font-size: 16vw;
+	}
+	#headings > aside {
+		display: none;
+	}
+	article {
+		margin: 3vh 10vw;
+	}
+	section, article > h2 {
+		max-width: 50rem;
+	}
+	h2, section > h3 {
+		font-size: 2em;
+		margin-bottom: 0;
+		margin-top: 2em;
+	}
+	h1, h2, h3, cite {
+		font-family: Lora;
+	}
+	figcaption {
+		font-style: italic;
+	}
+	footer {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 2em 0;
+	}
+	@media (min-width: 800px) {
+		main {
+			font-size: 2em;
+		}
+		#XV blockquote {
+			margin: 0;
+			display: flex;
+		}
+		#XV blockquote p {
+			min-width: 12em;
+			padding-right: 1em;
+		}
+		#headings > cite {
+			font-size: 2em;
+		}
+		#headings > h1 {
+			font-size: 4em;
+		}
+	}
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Cormorant+Garamond');
+
+@media screen {
+	/* Main Content */
+	body {
+		position: absolute;
+		background: #F5EFD3;
+	}
+	main {
+		font-size: 2em;
+		font-family: 'Cormorant Garamond';
+	}
+	#headings > cite {
+		font-size: 6vw;
+	}
+	#headings > h1 {
+		font-size: 18vw;
+	}
+	#headings > aside {
+		display: none;
+	}
+	article {
+		margin: 3vh 2vw;
+		display: flex;
+		flex-direction: column;
+	}
+	section, article > h2 {
+		max-width: 40rem;
+	}
+	h2, section > h3 {
+		font-size: 2em;
+		margin-bottom: 0;
+		margin-top: 2em;
+	}
+	h1, h2, h3, cite {
+		font-family: Lora;
+	}
+	figcaption {
+		font-style: italic;
+	}
+	footer {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 2em 0;
+	}
+	@media (min-width:60em) {
+		main {
+			font-size: 1.75em;
+		}
+		article {
+			margin: 3vh 5vw 3vh 30vw;
+		}
+		#XV blockquote {
+			margin: 0;
+			display: flex;
+		}
+		#XV blockquote p {
+			min-width: 12em;
+			padding-right: 1em;
+		}
+		#headings > cite {
+			font-size: 4em;
+		}
+		#headings > h1 {
+			font-size: 4em;
+		}
+	}
+	@media (min-width:90em) {
+		main {
+			font-size: 1.5em;
+		}
+		section, article > h2 {
+			margin-left: 30vw;
+		}
+		article {
+			margin: 3vh 5vw 3vh 30vw;
+		}
+	}
+}

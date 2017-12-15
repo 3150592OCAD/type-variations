@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:700|Titillium+Web:200,400');
+
+@media screen {
+	body {
+		background: #ccc;
+	}
+	main {
+		font-size: 1.5em;
+		font-family: 'Titillium Web', sans-serif;
+		font-weight: 200;
+	}
+	article {
+		max-width: 30em;
+		margin: 0 auto;
+	}
+	footer {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 1em 0;
+	}
+	cite {
+		font-size: 1.5em;
+	}
+	h1, h2, h3, main a {
+		color: #701616;
+	}
+	h1, h2, h3 {
+		font-family: teko;
+		margin-top: 1vh;
+		font-size: 3em;
+	}
+	h2 {
+		margin-bottom: 0.25vh;
+	}
+	h3 {
+		font-size: 2em;
+	}
+	p, #headings {
+		margin-top: 0;
+		margin-bottom:	5em;
+	}
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		font-weight: 400;
+	}
+	#XV blockquote {
+		display: flex;
+	}
+	#XV blockquote p {
+		padding: 1em;
+	}
+	figcaption {
+		font-style: italic;
+	}
+	dl dd {
+	display: inline;
+	margin: 0;
+	}
+	dl dd:after{
+	display: block;
+	content: '';
+	}
+	dl dt{
+	display: inline-block;
+	font-weight: bold;
+	}
+	dl dt:after{
+		content: ': ';
+}

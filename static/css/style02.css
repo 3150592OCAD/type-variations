@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:700');
+
+@media screen {
+	body {
+		background: #ccc;
+	}
+	main {
+		display: contents;
+		font-size: 1.5em;
+	}
+	footer {
+		display: flex;
+		justify-content: center;
+	}
+	article {
+		margin: 2vh 5vw;
+	}
+	section, aside {
+		max-width: 50em;
+
+	}
+	h1, h2, h3 {
+		font-family: teko;
+		color: #701616;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	#headings{
+		margin: 0 auto;
+	}
+	#XV blockquote {
+		display: flex;
+	}
+	#XV blockquote p {
+		padding: 1em;
+	}
+	figcaption {
+		font-style: italic;
+	}
+
+	main a {
+		color: #701616;
+	}
+	dl dd {
+	display: inline;
+	margin: 0;
+	}
+	dl dd:after{
+	display: block;
+	content: '';
+	}
+	dl dt{
+	display: inline-block;
+	font-weight: bold;
+	}
+	dl dt:after{
+		content: ': ';
+}

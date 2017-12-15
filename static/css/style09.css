@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:700|Montserrat:100');
+
+@media screen {
+	body {
+		position: absolute;
+		background:#efefef;
+		width: 100vw;
+	}
+	main {
+		font-family: 'Montserrat';
+		font-size: 1.2rem;
+		margin: 0 5vw;
+	}
+	section {
+		max-width: 30em;
+	}
+	#headings > cite {
+		font-size: 4vw;
+	}
+	#headings > h1 {
+		font-size: 10vw;
+	}
+	#headings > aside {
+		display: none;
+	}
+	h2, section > h3 {
+		font-size: 3em;
+		margin-top: 4rem;
+		margin-bottom: 0;
+	}
+	h1, h2, h3, cite {
+		color: #2D103D;
+		/* font-family: 'Libre Franklin'; */
+		font-family: 'Cinzel';
+	}
+	figcaption {
+		font-style: italic;
+	}
+	footer {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 2em 0;
+	}
+	@media (min-width:600px){
+		main {
+			font-size: 1.5rem;
+		}
+	}
+	@media (min-width:660px){
+		#XV blockquote {
+			margin: 0;
+			display: flex;
+			justify-content: flex-end;
+		}
+		#XV blockquote p {
+			min-width: 12em;
+		}
+		#XV blockquote p:last-child {
+			padding: 0 1em;
+		}
+	}
+	@media (min-width:1200px) {
+		main {
+			font-size: 2em;
+		}
+		section {
+		max-width: 40em;
+	}
+	}
+}

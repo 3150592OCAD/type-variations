@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:900|Cormorant+Garamond');
+
+@media screen {
+	body {
+		position: absolute;
+		background:#ddd;
+		width: 100vw;
+	}
+	main {
+		font-family: 'Cormorant Garamond';
+		font-size: 1.2rem;
+		margin: 0 5vw;
+	}
+	section {
+		max-width: 30em;
+	}
+	#headings > cite {
+		font-size: 5vw;
+	}
+	#headings > h1 {
+		font-size: 12vw;
+	}
+	#headings > aside {
+		display: none;
+	}
+	h2, section > h3 {
+		font-size: 3em;
+		margin-top: 4rem;
+		margin-bottom: 0;
+	}
+	h1, h2, h3, cite {
+		color: #501313;
+		/* font-family: 'Libre Franklin'; */
+		font-family: 'Heebo';
+	}
+	blockquote {
+		margin: 1rem 1rem;
+		text-align: right;
+	}
+	figcaption {
+		font-style: italic;
+	}
+	footer {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 2em 0;
+	}
+	@media (min-width:600px){
+		main {
+			font-size: 1.5rem;
+		}
+	}
+	@media (min-width:660px){
+		#XV blockquote {
+			margin: 0;
+			display: flex;
+		}
+		#XV blockquote p {
+			min-width: 12em;
+			padding-right: 1em;
+		}
+	}
+	@media (min-width:1200px) {
+		article {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
+		#headings, article > h2 {
+			grid-column: 1 / -1;
+		}
+		section:nth-child(even) {
+			grid-column: 1;
+		}
+		section:nth-child(even) > blockquote {
+			text-align: left;
+		}
+		section:nth-child(odd) {
+			grid-column: 2;
+			text-align: right;
+		}
+		section:nth-child(2) {
+			grid-row:2;
+		}
+		section:nth-child(3) {
+			grid-row:3;
+		}
+		section:nth-child(4) {
+			grid-row:4;
+		}
+		section:nth-child(5) {
+			grid-row:5;
+		}
+		section:nth-child(6) {
+			grid-row:6;
+		}
+		section:nth-child(7) {
+			grid-row:7;
+		}
+		section:nth-child(8) {
+			grid-row:8;
+		}
+		section:nth-child(9) {
+			grid-row:9;
+		}
+		section:nth-child(10) {
+			grid-row:10;
+		}
+		section:nth-child(11) {
+			grid-row:11;
+		}
+		section:nth-child(12) {
+			grid-row:12;
+		}
+		section:nth-child(13) {
+			grid-row:13;
+		}
+		section:nth-child(14) {
+			grid-row:14;
+		}
+		section:nth-child(15) {
+			grid-row:15;
+		}
+		section:nth-child(16) {
+			grid-row:16;
+		}
+		section:nth-child(17) {
+			grid-row:17;
+		}
+		section:nth-child(18) {
+			grid-row:18;
+		}
+		section:nth-child(19) {
+			grid-row:19;
+		}
+	}
+}

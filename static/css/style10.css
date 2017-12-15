@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Trirong:700');
+
+@media screen {
+	body {
+		background: #eee;
+	}
+	main {
+		font-size: 1.2em;
+		font-family: Quicksand;
+	}
+	#headings > cite {
+		display: block;
+		text-align: center;
+		font-size: 5vw;
+	}
+	#headings > h1 {
+		display: block;
+		text-align: center;
+		margin: 0;
+		font-size: 7vw;
+	}
+	#headings > aside {
+		display: none;
+	}
+	h1, h2, h3, cite {
+		font-family: Trirong;
+	}
+	article {
+		margin: 0 2vw;
+	}
+	article > section, article > h2 {
+		margin: 0 auto;
+		max-width: 30rem;
+	}
+	figcaption {
+		font-style: italic;
+	}
+	footer {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 1em 0;
+	}
+	@media (min-width: 1000px) {
+		#headings > cite {
+			font-size: 2vw;
+		}
+		#headings > h1 {
+			font-size: 5vw;
+		}
+	}
+}

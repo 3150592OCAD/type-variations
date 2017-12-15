@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre');
+@media screen {
+	main {
+		text-align: right;
+		font-family: 'Abhaya Libre';
+		margin-right: 4vw;
+	}
+	#headings > cite {
+		font-size: 4rem
+	}
+	#headings > h1 {
+		font-size: 4rem
+	}
+	#headings > aside {
+		display: none;
+	}
+	article {
+		float: right;
+	}
+	article > section, article > h1 {
+		max-width: 45rem;
+		font-size: 1.5em;
+	}
+	footer {
+		display: none;
+	}
+	@media (min-width:800px) {
+		#XV blockquote {
+			margin: 0;
+			display: flex;
+			justify-content: flex-end;
+		}
+		#XV blockquote p {
+			min-width: 12em;
+		}
+		#XV blockquote p:last-child {
+			padding: 0 1em;
+		}
+	}
+}

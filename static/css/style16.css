@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant:400,400i,700');
+
+@media screen {
+	body {
+		background: #eee;
+	}
+	main {
+		margin: 0 5vw;
+		font-family: 'Cormorant';
+		font-size: 1.25rem;
+	}
+	article {
+		margin: 0 auto;
+		max-width: 30rem;
+	}
+	section {
+		margin-top: 4em;
+	}
+	#headings > cite {
+		font-size: 1.5rem;
+	}
+	#headings > h1 {
+		font-size: 2.8rem;
+		margin: 0.5rem 0;
+	}
+	#headings > aside {
+		font-size: 1rem;
+	}
+	figcaption {
+		font-style: italic;
+	}
+	dt {
+		font-weight: 700;
+	}
+	dd {
+		margin: 0;
+	}
+	footer {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 2em 0;
+	}
+}

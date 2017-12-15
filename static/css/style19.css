@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+@media screen {
+	body {
+		background: #000000;
+	}
+	main {
+		color: #46C812;
+		font-family: 'Source Code Pro';
+	}
+	#headings > cite {
+		font-size: 1em;
+	}
+	#headings > h1 {
+		font-size: 1em;
+	}
+	#headings > aside {
+		display: none;
+	}
+	h1, h2, h3 {
+		text-transform: uppercase;
+		font-size: 1em;
+	}
+	h3, blockquote {
+		margin-left: 1em;
+	}
+	figcaption {
+		font-style: italic;
+	}
+	footer > a {
+		color: #46C812;
+		font-family: 'Source Code Pro';
+	}
+	@media (min-width: 800px){
+		#XV blockquote {
+			display: flex;
+		}
+		#XV > blockquote > p:nth-child(even) {
+			margin-left: 1em;
+		}
+	}
+}

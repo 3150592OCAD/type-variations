@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|Work+Sans:800');
+
+@media screen {
+	body {
+		background: #E9E5E5;
+	}
+	main {
+		font-family: 'Abhaya Libre';
+		font-size: 1.5rem;
+	}
+	article {
+		margin: 5vw;
+	}
+	#headings {
+		margin: 0 auto;
+		text-align: center;
+	}
+	#headings > cite {
+		font-size: 7.5vw;
+	}
+	#headings > h1 {
+		font-size: 5vw;
+	}
+	#headings > aside {
+		display: none;
+	}
+	h1, h2, h3, cite {
+		letter-spacing: 0.02em;
+		font-family: 'Work Sans';
+	}
+	footer {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 2em 0;
+	}
+	@media (min-width: 800px) {
+		article > section, article > h2 {
+			margin-left: 20vw;
+			margin-right: 20vw;
+		}
+		#headings > cite {
+			font-size: 4rem;
+		}
+		#headings > h1 {
+			font-size: 2rem;
+		}
+	}
+	@media (min-width:1200px) {
+		article > section, article > h2 {
+			margin-left: 30vw;
+			margin-right: 30vw;
+		}
+	}
+}

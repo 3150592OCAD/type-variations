@@ -1,0 +1,49 @@
+
+@media screen {
+	body {
+		background: #ededed;
+	}
+	main {
+		margin: 0 5vw;
+		font-size: 1.5em;
+	}
+	article {
+		margin: -1 auto;
+		max-width: 50rem;
+	}
+	article > section {
+		margin: 0;
+		padding: 2em 2vw 1em;
+	}
+	article > h2 {
+		margin: 0;
+		padding: 2em 2vw 0em;
+	}
+	#headings {
+		padding: 2em 2vw 1em;
+	}
+	#headings > cite {
+		font-size: 1.5rem;
+		font-style: inherit;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	h2, h3 {
+		font-size: 3rem;
+	}
+	#headings > aside, footer {
+		display: none;
+	}
+	@media (min-width:1000px) {
+		article {
+			border-left: 10px solid black;
+		}
+		#XV blockquote {
+			display: flex;
+		}
+		#XV > blockquote > p:nth-child(even) {
+			margin-left: 1em;
+		}
+	}
+}
